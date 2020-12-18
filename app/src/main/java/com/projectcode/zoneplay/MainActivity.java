@@ -1,4 +1,4 @@
-package com.example.zoneplay;
+package com.projectcode.zoneplay;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,4 @@
-package com.example.zoneplay;
+package com.projectcode.zoneplay;
 
 import org.junit.Test;
 

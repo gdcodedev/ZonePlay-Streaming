@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.zoneplay">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.projectcode.zoneplay">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,8 +14,10 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.ZONEPLAY">
-        <activity android:name="com.example.zoneplay.MainActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
+        <activity
+            android:name="com.projectcode.zoneplay.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            tools:ignore="MissingClass">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
